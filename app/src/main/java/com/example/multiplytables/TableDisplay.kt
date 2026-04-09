@@ -48,7 +48,7 @@ class TableDisplay : AppCompatActivity() {
              5 x 1 = 5
              */
              timesDisplay += "$tableNumber x $count = ${answer}\n"
-
+             count++              //update the control variable
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
