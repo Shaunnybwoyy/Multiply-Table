@@ -31,7 +31,7 @@ class TableDisplay : AppCompatActivity() {
         //
         multiplyTable.text = timesDisplay
 
-        while (count<=10){
+        while (count<=20){
 
 
               //Adding a continue
